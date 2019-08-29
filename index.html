@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>四つ手網</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="0">
+  <div class="fixed-top">
+    <nav  class="navbar navbar-expand-lg bg-original">
+      <div class="navbar-brand">四つ手網 近藤</div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto ">
+          <li class="nav-item active">
+            <a class="nav-link home" href="#0">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item describe">
+            <a class="nav-link" href="#01">四つ手網とは</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#02">料金・施設案内</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#03">お問い合わせ・予約</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#04">アクセス</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <main>
+    <div class="mb-4">
+      <img src="img/top.jpg" alt="四つ手網小屋" class="img-fluid ">
+    </div>
+    <div class="container">
+      <h2 id="01">四つ手網小屋について</h2>
+      説明が入ります説明が入ります説明が入ります説明が入ります
+      <div class="mt-3">
+        <h2 id="02">料金・施設案内</h2>
+          <div class="place">
+            <p>ガス・トイレ・水道・テレビ・冷蔵庫がございます。<br>もしお泊りになる場合はお布団もございますが寝袋などを持ってくることもおすすめしております。
+            </p>
+            <div class="swiper-container">
+              <ul class="img-box swiper-wrapper">
+                <li class="swiper-slide">
+                  <img src="img/01.jpg" alt="四つ手網小屋夕方の外観">
+                </li>
+                <li class="swiper-slide">
+                  <img src="img/02.jpg" alt="四つ手網小屋昼の外観">
+                </li>
+                <li class="swiper-slide">
+                  <img src="img/03.jpg" alt="四つ手網小屋内装">
+                </li>
+                <li class="swiper-slide">
+                  <img src="img/04.jpg" alt="四つ手網小屋でBBQ">
+                </li>
+              </ul>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">部屋番号</th>
+              <th scope="col">人数</th>
+              <th scope="col">料金(円)</th>
+              <th scope="col">休業時期</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>12名</td>
+              <td>12,000</td>
+              <td>年中無休</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>10名</td>
+              <td>11,000</td>
+              <td>12月〜3月</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>8名</td>
+              <td>10,000</td>
+              <td>12月〜3月</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h2 id="03" ="m-3">お問い合わせ・予約</h2>
+      <div id="reserve">
+        <form class=" p-5">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputName">氏名</label>
+              <input type="name" class="form-control" id="inputName" placeholder="山田太郎">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">住所</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="例)岡山県岡山市東区">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress2">番地</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="例)番地、建物名、部屋番号等">
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputNumber">電話番号</label>
+              <input type="text" class="form-control" id="inputNumber">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="textarea">要望・お問い合わせ内容</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary ">送信</button>
+        </form>
+      </div>
+        <h2 id="04">アクセス</h2>
+        <div id="access" class=" text-center pt-4">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26262.089641647974!2d134.007750181106!3d34.63547434272344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3554098f7e23ce4b%3A0x7872f6e96b41d99e!2z5Zub44Gk5omL57ay!5e0!3m2!1sja!2sjp!4v1565628365063!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>  
+      </div>
+    </div>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+    <div id="page_top"><a href="#"></a>
+    </div>
+  </div>
+
+  </main>
+  <footer class="bg-primary p-1 mt-5 text-center text-light">
+      (c)四つ手網近藤
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
